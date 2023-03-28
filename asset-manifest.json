@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b89fec0a.css",
-    "main.js": "/static/js/main.e9f6a900.js",
+    "main.css": "/static/css/main.dc5c54b6.css",
+    "main.js": "/static/js/main.22e47c95.js",
     "static/media/Affidavit.pdf": "/static/media/Affidavit.9ebb0deee4502fba7a78.pdf",
     "static/media/School Uniform.pdf": "/static/media/School Uniform.7030fa0f90ce5a34f5e4.pdf",
     "static/media/Academic Calender.pdf": "/static/media/Academic Calender.e94bbb73e7e52fc9644c.pdf",
@@ -32,11 +32,11 @@
     "static/media/bdps_logo_3.webp": "/static/media/bdps_logo_3.e6cb6649ffbf1867b3d1.webp",
     "static/media/stamp.webp": "/static/media/stamp.c80180bf6b255a016763.webp",
     "index.html": "/index.html",
-    "main.b89fec0a.css.map": "/static/css/main.b89fec0a.css.map",
-    "main.e9f6a900.js.map": "/static/js/main.e9f6a900.js.map"
+    "main.dc5c54b6.css.map": "/static/css/main.dc5c54b6.css.map",
+    "main.22e47c95.js.map": "/static/js/main.22e47c95.js.map"
   },
   "entrypoints": [
-    "static/css/main.b89fec0a.css",
-    "static/js/main.e9f6a900.js"
+    "static/css/main.dc5c54b6.css",
+    "static/js/main.22e47c95.js"
   ]
 }
