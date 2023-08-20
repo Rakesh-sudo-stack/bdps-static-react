@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.fd3bf531.css",
-    "main.js": "/static/js/main.dc743f23.js",
+    "main.css": "/static/css/main.f3ff2f34.css",
+    "main.js": "/static/js/main.cfd24c42.js",
     "static/media/Affidavit.pdf": "/static/media/Affidavit.9ebb0deee4502fba7a78.pdf",
     "static/media/School Uniform.pdf": "/static/media/School Uniform.7030fa0f90ce5a34f5e4.pdf",
     "static/media/Academic Calender.pdf": "/static/media/Academic Calender.e94bbb73e7e52fc9644c.pdf",
@@ -33,11 +33,11 @@
     "static/media/stamp.webp": "/static/media/stamp.c80180bf6b255a016763.webp",
     "static/media/customizable-image.webp": "/static/media/customizable-image.dac0f4c647f86488cf11.webp",
     "index.html": "/index.html",
-    "main.fd3bf531.css.map": "/static/css/main.fd3bf531.css.map",
-    "main.dc743f23.js.map": "/static/js/main.dc743f23.js.map"
+    "main.f3ff2f34.css.map": "/static/css/main.f3ff2f34.css.map",
+    "main.cfd24c42.js.map": "/static/js/main.cfd24c42.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd3bf531.css",
-    "static/js/main.dc743f23.js"
+    "static/css/main.f3ff2f34.css",
+    "static/js/main.cfd24c42.js"
   ]
 }
