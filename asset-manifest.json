@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.fd3bf531.css",
-    "main.js": "/static/js/main.98092666.js",
+    "main.js": "/static/js/main.3a52992a.js",
     "static/media/Affidavit.pdf": "/static/media/Affidavit.9ebb0deee4502fba7a78.pdf",
     "static/media/School Uniform.pdf": "/static/media/School Uniform.7030fa0f90ce5a34f5e4.pdf",
     "static/media/Academic Calender.pdf": "/static/media/Academic Calender.e94bbb73e7e52fc9644c.pdf",
@@ -34,10 +34,10 @@
     "static/media/customizable-image.webp": "/static/media/customizable-image.dac0f4c647f86488cf11.webp",
     "index.html": "/index.html",
     "main.fd3bf531.css.map": "/static/css/main.fd3bf531.css.map",
-    "main.98092666.js.map": "/static/js/main.98092666.js.map"
+    "main.3a52992a.js.map": "/static/js/main.3a52992a.js.map"
   },
   "entrypoints": [
     "static/css/main.fd3bf531.css",
-    "static/js/main.98092666.js"
+    "static/js/main.3a52992a.js"
   ]
 }
