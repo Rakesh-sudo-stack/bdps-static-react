@@ -1,0 +1,20 @@
+.downloads-page{
+    margin-left: 2rem;
+    padding: 4rem;
+}
+
+.downloads-page ul{
+    list-style-type: none;
+}
+
+.downloads-page ul li a{
+    font-size: 1.4rem;
+    color: rgb(37, 37, 218);
+}
+
+@media(max-width:576px){
+    .downloads-page{
+        margin-left: 0;
+        padding: 0.4rem;
+    }
+}
