@@ -1,0 +1,107 @@
+
+
+/* ------------ DASHBOARD CSS STARTS HERE ------------- */
+
+.admin-page .dashboard .admins h2{
+    color: var(--aside-bg);
+}
+
+.admin-page .dashboard .add-admin-portal,.admin-page .dashboard .change-name-portal{
+    display: none;
+}
+
+.admin-page .dashboard .add-admin-portal form, .admin-page .dashboard .change-name-portal form{
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: 3rem;
+    background-color: var(--aside-bg);
+    padding: 2rem;
+    max-width: 20rem;
+}
+
+.admin-page .dashboard .add-admin-portal h3, .admin-page .dashboard .change-name-portal h3{
+    margin-bottom: 1rem;
+    color: var(--panel-color);
+}
+
+.admin-page .dashboard .add-admin-portal label, .admin-page .dashboard .change-name-portal label{
+    margin-top: .7rem;
+    color: var(--panel-color);
+}
+
+.admin-page .dashboard .add-admin-portal input, .admin-page .dashboard .add-admin-portal select, .admin-page .dashboard .change-name-portal input, .admin-page .dashboard .change-name-portal{
+    flex: 0 1 auto;
+    max-width: 20rem;
+    outline: none;
+    padding: .5rem 1rem;
+    border-radius: 1rem;
+}
+
+.admin-page .dashboard .table-container{
+    width: 100%;
+    overflow-x: scroll;
+}
+
+.admin-page .dashboard .admins-table{
+    margin-top: 1rem;
+    width: 100%;
+    background-color: white;
+    border-radius: 8px 8px 0 0;
+    border-collapse: collapse;
+    border: 1px solid var(--aside-bg);
+}
+
+.admin-page .dashboard .admins-table thead{
+    color:#fff;
+    background-color: var(--aside-bg);
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.admin-page .dashboard .admins-table thead tr td{
+    text-align: center;
+}
+
+.admin-page .dashboard .admins-table tbody tr td{
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000;
+    padding: .3rem 0;
+    border-top: 1px solid var(--aside-bg);
+}
+
+.admin-page .fa-pen-to-square{
+    color:green;
+}
+
+.admin-page .fa-trash{
+    color: red;
+}
+
+.admin-page .dashboard #add-admin-btn, .admin-page .dashboard button[name='add-admin'], .admin-page .dashboard .change-name-portal button{
+    padding: .5rem 2.5rem;
+    background: rgb(235, 216, 41);
+    border-radius: 1rem;
+    color: var(--aside-bg);
+    font-size: 1.3rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.admin-page .dashboard #change-admin-pass,.admin-page .dashboard #change-yr-name{
+    padding: .5rem 2.5rem;
+    background: rgb(23, 71, 11);
+    border-radius: 1rem;
+    color: #fff;
+    font-size: 1.3rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: 0.5s ease;
+}
+
+.admin-page .dashboard #change-admin-pass:hover, .admin-page .dashboard #change-yr-name:hover{
+    background: #5c0f66;
+}
+
+/* ------------ DASHBOARD CSS ENDS HERE ------------- */

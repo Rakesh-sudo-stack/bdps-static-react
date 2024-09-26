@@ -1,0 +1,21 @@
+.advice-to-parents-page main{
+    padding: 4rem 8rem;
+    display: flex;
+    flex-wrap: wrap;
+    background: rgba(255, 255, 255, 0.199);
+    color: rgb(75, 75, 75);
+}
+
+.advice-to-parents-page main h2{
+    padding: 2rem 0;
+}
+
+.advice-to-parents-page main ul li{
+    line-height: 1.5rem;
+}
+
+@media(max-width:830px){
+    .advice-to-parents-page main{
+        padding: 4rem 3rem;
+    }
+}

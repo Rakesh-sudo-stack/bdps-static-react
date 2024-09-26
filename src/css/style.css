@@ -1,0 +1,469 @@
+.image-slider {
+  position: relative;
+  max-height: 500px;
+  width: 100vw;
+  overflow: hidden;
+}
+  
+.mySlides {
+  position: relative;
+  height: 500px;
+  width: 100%;
+  background-color: white;
+  overflow: hidden;
+}
+
+.mySlides .title{
+  position: absolute;
+  top: 10%;
+  left:10%;
+  transform: translate(-50%,-50%);
+  transform: skew(20deg);
+  z-index: 2;
+  color: white;
+  font-weight: 900;
+  font-size: 1.7rem;
+  padding: 1rem;
+  background-color: rgba(138, 12, 122, 0.761);
+  -webkit-text-stroke:.8px #000;
+  -ms-text-stroke:.8px #000;
+
+}
+  
+.cursor {
+  cursor: pointer;
+}
+
+.prev-image,
+.next-image{
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+  background-color: rgba(0, 0, 0, 0.8);
+  opacity: 0.5;
+}
+ 
+.next-image {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+  
+.prev-image:hover,
+.next-image:hover {
+  opacity: 1;
+}
+  
+.numbertext {
+  color: #b80fb0;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+  z-index: 2;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.mySlides img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%,-50%);
+}
+  
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+  
+.column {
+float: left;
+  width: 16.66%;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,.demo:hover {
+  opacity: 1;
+}
+
+@media(max-width:1000px){
+  .mySlides{
+    height: 500px;
+  }
+  .mySlides img{
+    height: 500px;
+    width: auto;
+  }
+}
+
+/* -------------*********BANNER CODE BELOW IMAGES STARTS**************------------- */
+
+.home-page .banner{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* margin: 4rem 0; */
+}
+
+.home-page .banner .school-prospectus{
+  background: rgb(103, 21, 141);
+  width: 95%;
+  text-align: center;
+  border-top: 1px solid rgba(154, 185, 118, 0.432);
+  padding: 1rem 0;
+}
+
+.home-page .banner .school-prospectus a{
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.home-page .banner .school-info{
+  width: 95%;
+  background: rgb(103, 21, 141);
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.home-page .banner .school-info .connect ul{
+  padding: 2rem;
+  display: flex;
+  border-right: 1px solid rgba(154, 185, 118, 0.432);
+}
+
+.home-page .banner .school-info .connect ul li{
+  margin: 0 1rem;
+  list-style-type: none;
+  color: white;
+  font-weight: 700;
+  font-family: century gothic;
+}
+
+.home-page .banner .school-info .connect ul li a{
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  font-family: century gothic;
+}
+
+.home-page .banner .school-info .social-media ul{
+  position: absolute;
+  right: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style-type: none;
+  height: 100%;
+}
+
+.home-page .banner .school-info .social-media ul li a{
+  background-color: rgb(144, 26, 168);
+  height: 4rem;
+  width: 4rem;
+  clip-path: circle(40%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-page .social-media ul li a:visited,.home-page  .social-media ul li a:active,.home-page .social-media ul li a:focus,
+.home-page .social-media ul li a:link{
+  color: transparent;
+}
+
+.home-page .banner .school-info .social-media ul li a i{
+  color: white;
+  font-size: 2rem;
+}
+
+@media(max-width:1005px){
+  .home-page .banner .school-info{
+    flex-flow: column;
+  }
+  .home-page .banner .school-info .social-media ul{
+    position: initial;
+  }
+  .home-page .banner .school-info .connect ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .home-page .banner .school-info .connect ul li{
+    text-align: center;
+  }
+}
+
+@media(max-width:557px){
+  .home-page .banner .school-info, .banner .school-prospectus{
+    width: 100%;
+  }
+}
+
+@media(max-width:340px){
+  .mySlides .title{
+    font-size: .9rem;
+  }
+  .home-page .banner .school-info{
+    padding: .5rem 0;
+  }
+  .home-page .banner .school-info .connect ul{
+    display: none;
+  }
+}
+
+@media(max-width:285px){
+  .home-page .banner .school-info .social-media ul li a{
+    clip-path: circle(25%);
+  }
+  .home-page .banner .school-info .social-media ul li a i{
+    font-size: 1rem;
+  }
+}
+
+/* -------------*********BANNER CODE BELOW IMAGES ENDS**************------------- */
+.home-page .section-1{
+  display:flex;
+  flex-flow: row wrap;
+  padding: 1rem;
+}
+
+/* LEFT SIDE PART STARTS HERE... */
+
+.home-page .left-side{
+  flex: 0 1 55vw;
+}
+
+/* ABOUT US SECTION STARTS HERE */
+
+.home-page .about-us{
+  width:55vw;
+  min-height: 200px;
+  display: flex;
+  flex-flow: column wrap;
+  background-color: white;
+  border-radius: .5rem;
+  padding: 1rem;
+}
+
+.home-page .about-us h2{
+  padding: 1rem;
+  font-size: 1.2rem;
+  align-self: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.home-page .about-us p{
+  flex: 2 1 70%;
+  word-spacing: 2px;
+  line-height: 1.2rem;
+  letter-spacing: 1px;
+  font-size: .9rem;
+  color: rgb(87, 76, 76);
+  font-family: sans-serif;
+}
+
+.home-page .about-us a{
+  text-decoration: none;
+}
+
+.home-page .about-us b{
+  color: rgba(37, 24, 24, 0.87);
+  font-weight: 800;
+}
+
+.home-page .about-us a#read-more{
+  align-self: start;
+}
+
+/* MESSAGES SECTION STARTS HERE... */
+
+.home-page .messages-section{
+  display: flex;
+  flex-flow: column wrap;
+  width: 55vw;
+  margin-top: 2rem;
+  align-items: center;
+}
+
+
+.home-page .messages-section .message{
+  padding: 1rem;
+  display: flex;
+  flex-flow: row wrap;
+  max-width: 800px;
+  background-color: rgb(144, 26, 168);
+  color:#fff;
+  font-family: sans-serif;
+  margin-bottom: 4rem;
+}
+
+.home-page .messages-section .message .content-div{
+  flex: 1 1;
+  display: flex;
+  flex-flow: column;
+  flex-wrap: wrap;
+  min-width: 300px;
+}
+
+.home-page .messages-section .message .title{
+  margin-top: .7rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.home-page .messages-section .message .content-div .content{
+  letter-spacing: 2px;
+  word-spacing: 3px;
+  line-height: 1.2rem;
+}
+
+.home-page .messages-section .message .content-div .content b{
+  font-weight: 700;
+}
+
+.home-page .messages-section .message .content-div a{
+  color: white;
+  padding: 1rem;
+  text-decoration: none;
+  border: 3px solid white;
+  margin-top: 1rem;
+  font-weight: 600;
+  align-self: center;
+}
+
+.home-page .messages-section .message figure{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1 1;
+}
+
+.home-page .messages-section .message img{
+  height: 200px;
+}
+
+/* RIGHT SIDE PART STARTS HERE... */
+
+.home-page .right-side{
+  flex: 0 1 40vw;
+  padding: 0 .4rem;
+}
+
+.announcements-section,.notice-board{
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  margin-bottom: 3rem;
+}
+
+.announcements-section marquee,.notice-board .container{
+  flex-flow: column wrap;
+  overflow: scroll;
+  background-color: #fff;
+  border: 4px solid rgb(144, 26, 168);
+  border-radius: 0 2rem 0 2rem;
+  height: 20rem;
+  width: 20rem;
+  font-family: sans-serif;
+  padding: 2rem;
+  width: 100%;
+}
+
+.announcements-section .announcement,.notice-board .notice{
+  margin: 1rem 0;
+}
+
+.announcements-section .announcement .title,.announcements-section .announcement .title a,.notice-board .notice .title,.notice-board .notice .title a{
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: rgba(39, 32, 32, 0.904);
+  font-weight: 700;
+}
+
+.announcements-section .announcement .date,.notice-board .notice .date{
+  color: rgba(68, 68, 158, 0.973);
+  font-weight: 600;
+}
+
+.announcements-section .announcement .school-name,.notice-board .notice .school-name{
+  color: rgb(144, 26, 168);
+  font-family: sans-serif;
+  font-weight: 700;
+}
+
+.home-page .facilities .container{
+  width: 100%;
+  background: rgb(103, 21, 141);
+  display: flex;
+  flex-flow: column wrap;
+  font-family: sans-serif;
+  padding: .5rem;
+  font-family: sans-serif;
+}
+
+.home-page .facilities .facility{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+  border-bottom: 1px solid #fff;
+}
+
+.home-page .facilities .facility .number{
+  height: 6rem;
+  width: 6rem;
+  text-align: center;
+  line-height: 6rem;
+  font-size: 2rem;
+  border-radius: 50%;
+  color: white;
+  background: rgb(144, 26, 168);
+  font-weight: 600;
+}
+
+.home-page .facilities .facility p{
+  font-size: 1.3rem;
+  color: #fff;
+  align-self: right;
+  padding: 0 1rem;
+  flex: 1 1 1rem;
+}
+
+@media(max-width:930px){
+  .home-page .left-side{
+    flex: 0 1 100%;
+  }
+  .home-page .right-side{
+    flex:  0 1 100vw;
+  }
+  .home-page .left-side .about-us,.home-page  .left-side .messages-section{
+    width: 100%;
+  }
+  .home-page .announcements-section marquee,.home-page  .announcements-section{
+    width: 100%;
+  }
+}
