@@ -2,3 +2,5 @@
     from = "*"
     to = "https://bdps-api.onrender.com"
     status = 200
+    force = true
+    signed = "thisisajwssign"
