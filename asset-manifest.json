@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fd3bf531.css",
+    "main.js": "/static/js/main.98092666.js",
+    "static/media/Affidavit.pdf": "/static/media/Affidavit.9ebb0deee4502fba7a78.pdf",
+    "static/media/School Uniform.pdf": "/static/media/School Uniform.7030fa0f90ce5a34f5e4.pdf",
+    "static/media/Academic Calender.pdf": "/static/media/Academic Calender.e94bbb73e7e52fc9644c.pdf",
+    "static/media/Holiday List.pdf": "/static/media/Holiday List.a09f71f08d3cea6c64f0.pdf",
+    "static/media/Annual Sports Meet.pdf": "/static/media/Annual Sports Meet.783243d8d9d9911f6888.pdf",
+    "static/media/img1.webp": "/static/media/img1.c46d28e5ce5415cef6eb.webp",
+    "static/media/img4.webp": "/static/media/img4.5ba39206edf02432f9c0.webp",
+    "static/media/Exam Schedule.pdf": "/static/media/Exam Schedule.daa084accdecd5aa9b48.pdf",
+    "static/media/SchoolInfo.pdf": "/static/media/SchoolInfo.ba1527b2f9969069b9a2.pdf",
+    "static/media/img5.webp": "/static/media/img5.d1f256ef18f77dd16112.webp",
+    "static/media/img9.webp": "/static/media/img9.e0b61d7efe00a2ec33aa.webp",
+    "static/media/RESULTANAL.pdf": "/static/media/RESULTANAL.f81fa626320321c15ea5.pdf",
+    "static/media/Teachers List.pdf": "/static/media/Teachers List.bf693a7f854a3cf089ac.pdf",
+    "static/media/SMC.pdf": "/static/media/SMC.51dfccbeb647dbe526f3.pdf",
+    "static/media/img2.webp": "/static/media/img2.aec39877c7dfdc59e759.webp",
+    "static/media/img10.webp": "/static/media/img10.fa2cfeb54771f1b5bcf9.webp",
+    "static/media/img6.webp": "/static/media/img6.136d994803bda69063e7.webp",
+    "static/media/constitution.webp": "/static/media/constitution.e04b6fd9b6f3a312d1f6.webp",
+    "static/media/img8.webp": "/static/media/img8.3edabebdf4aecf520ab8.webp",
+    "static/media/img7.webp": "/static/media/img7.64501a145f22269d15ed.webp",
+    "static/media/aims.webp": "/static/media/aims.56e24102e68fc1c49913.webp",
+    "static/media/Activities and Competitions.pdf": "/static/media/Activities and Competitions.d1348a57c677b80fd5b8.pdf",
+    "static/media/img3.webp": "/static/media/img3.ca0d73c83622f495b0b8.webp",
+    "static/media/director-image.webp": "/static/media/director-image.d692057642ab2cbab34d.webp",
+    "static/media/director-msg.webp": "/static/media/director-msg.7cee5edccf0ed939d4ae.webp",
+    "static/media/principal-image.webp": "/static/media/principal-image.fd58045eff260dfd29fc.webp",
+    "static/media/schoolbuilding.webp": "/static/media/schoolbuilding.d7621d0fe2d4299f13b5.webp",
+    "static/media/bdps_logo_3.webp": "/static/media/bdps_logo_3.e6cb6649ffbf1867b3d1.webp",
+    "static/media/stamp.webp": "/static/media/stamp.c80180bf6b255a016763.webp",
+    "static/media/customizable-image.webp": "/static/media/customizable-image.dac0f4c647f86488cf11.webp",
+    "index.html": "/index.html",
+    "main.fd3bf531.css.map": "/static/css/main.fd3bf531.css.map",
+    "main.98092666.js.map": "/static/js/main.98092666.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fd3bf531.css",
+    "static/js/main.98092666.js"
+  ]
+}
