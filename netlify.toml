@@ -1,0 +1,4 @@
+[[redirects]]
+    from = "*"
+    to = "https://bdps-api.onrender.com"
+    status = 200
