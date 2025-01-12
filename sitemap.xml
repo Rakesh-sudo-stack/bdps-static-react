@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<url>
+	<loc>https://bdps-static-react.netlify.app/</loc>
+	<lastmod>2025-01-12T11:58:37+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://bdps-static-react.netlify.app/aims</loc>
+	<lastmod>2025-01-12T11:58:37+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://bdps-static-react.netlify.app/constitution</loc>
+	<lastmod>2025-01-12T11:58:37+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://bdps-static-react.netlify.app/director-msg</loc>
+	<lastmod>2025-01-12T11:58:37+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://bdps-static-react.netlify.app/advice-to-parents</loc>
+	<lastmod>2025-01-12T11:58:37+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://bdps-static-react.netlify.app/downloads</loc>
+	<lastmod>2025-01-12T11:58:37+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://bdps-static-react.netlify.app/admin/login</loc>
+	<lastmod>2025-01-12T11:58:37+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://bdps-static-react.netlify.app/admin</loc>
+	<lastmod>2025-01-12T11:58:37+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://bdps-static-react.netlify.app/admin/image-slider</loc>
+	<lastmod>2025-01-12T11:58:37+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://bdps-static-react.netlify.app/admin/announcements</loc>
+	<lastmod>2025-01-12T11:58:37+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://bdps-static-react.netlify.app/admin/notice-board</loc>
+	<lastmod>2025-01-12T11:58:37+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://bdps-static-react.netlify.app/admin/edit-admin/</loc>
+	<lastmod>2025-01-12T11:58:37+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://bdps-static-react.netlify.app/admin/change-pass</loc>
+	<lastmod>2025-01-12T11:58:37+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://bdps-static-react.netlify.app/downloads/pdf</loc>
+	<lastmod>2025-01-12T11:58:37+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://bdps-static-react.netlify.app/downloads/images</loc>
+	<lastmod>2025-01-12T11:58:37+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://bdps-static-react.netlify.app/downloads/images/heroes-section</loc>
+	<lastmod>2025-01-12T11:58:37+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://bdps-static-react.netlify.app/downloads/images/pages</loc>
+	<lastmod>2025-01-12T11:58:37+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://bdps-static-react.netlify.app/admin/forgotpass</loc>
+	<lastmod>2025-01-12T11:58:37+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+</urlset>
